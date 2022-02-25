@@ -32,14 +32,26 @@ This repository presents the design of Analysis of CMOS Schmitt Trigger implemen
   Fig. 1: Analog Multipier 
 </p>
 
+   A common disadvantage of Schmitt triggers is that the hysteresis is decided through different tools, dimensions, techniques, different parameters, factors and supply voltages. As a result, the hysteresis varies with system conditions and a range of the parameters must be tolerated from chip to chip, area to area in addition to from batch to batch. Several procedures had been proposed to implement a conventional Schmitt trigger. The switching thresholds are depending on the ratio of NMOS and PMOS. However, the design exhibited racing phenomena depending on while the transition started. A low voltage Schmitt trigger is proposed on this paper that could function from 1.8V-2V at high capacitance with much less propagation delay and strong hysteresis width by reducing the supply voltage
 
-           Vout = (v1*v2)/k
+# Schmitt Trigger:
 
-   It is used widely in the field of telecommunication, analog signal processing, Instrument systems etc. Analog multiplier is categorized as single quadrant which means that when both the input is positive/negative (i.e., same unipolar), two-quadrant means when one input has a positive voltage and other input could have positive or negative voltage (i.e., x is bipolar and y is unipolar), four-quadrant multiplier means when both the input is either positive or negative (i.e., when x is bipolar and y is also bipolar). 
-So, in this paper, we are going to make the CMOS low power consumption analog multiplier of four-quadrant multiplier. As, four-quadrant analog multiplier is a very useful basic building block in many circuits like adaptive filters, phase-frequency detection, frequency double, function generator, frequency shifters, etc. It is also used in modulation, pll (phase-locked loop), frequency mixer, etc.
+   A Schmitt trigger is a comparator circuit with hysteresis applied with the aid of using making use of positive feedback to the non-inverting input of a comparator or differential amplifier, Schmitt trigger is an active circuit which converts an analog input signal to a digital output signal, the circuit is known as a cause due to the fact the output keeps its price till the enter adjustments sufficiently to cause a change. In the non-inverting configuration, whilst the input is better than a designated threshold, the output is high. When the input is below a different (lower) selected threshold the output is low, and when the input is among the 2 ranges the output keeps its value.   There is a near relation among the 2 forms of circuits: a Schmitt trigger may be transformed right into a latch and a latch may be transformed right into a Schmitt trigger.
+   Schmitt trigger devices are generally utilized in signal conditioning packages to remove noise from indicators utilized in digital circuits, mainly mechanical touch jump in switches. They also are utilized in closed loop terrible comments configurations to implement rest oscillators, utilized in characteristic generators and switching power supplies.
+   
+   
 
-# Analog Multiplier:
 
+
+
+
+# Four-Quadrant Analog Multiplier:
+
+   The CMOS Schmitt trigger includes 3 NMOS transistors (N1, N2, and N3), and 3 PMOS transistors (P1, P2, and P3). It indicates the fundamental CMOS Schmitt trigger circuit design.
+The proposed Schmitt trigger is classified into components that is Part 1 and Part 2. Part 1 is included transistors of N1 and P1. Part2 is include inverters (N2, P2, N2, P3), even as the inverters serve 3 purposes. First, the switching threshold of the inverter is trusted the component ratio of PMOS and NMOS (kP and kN). Part 2 employs the unique ratio of the transistors to alternate the switching threshold of the inverter. Second, the part 2 CMOS inverters are connected in a high-quality feedback configuration, therefore speeding up the switching process. Third, the control voltages of the CMOS inverter in part 2 controls the depth of the feedback signal, therefore the switching threshold voltage of the Schmitt trigger.
+ The operation of the circuit may be defined as follows. Let's anticipate first of all that the input signal VIN is low. And the output signal VOUT is low too. So, transistors of N1, N3 is withinside the reduce off areas and P1, P3 is withinside the saturation areas. To transfer the VIN from low to high, the transistor N1 activates regularly, the voltage of node C decreases, at the same time as the VOUT regularly increases. when the same resistor of C node to ground decreases, flattening the voltage of node C further, which improve the rate of the switch in the VOUT. Since the control voltage may be used to set the threshold voltage of P3, and hence the quantity of a further contemporary source of P3, the switching threshold voltage from low to high (VLH) may be adjusted through the controlling voltage. when the input voltage is high, the output voltage is likewise high. So, the transistors of P1, P3 is withinside reduce off the areas and N1, N3 is withinside the saturation areas. To switch the VIN from high to low, the transistor of P1 activates regularly, the voltage of node C increases, even as the VOUT regularly decreases. When the voltage of node C is better than the switching voltage of the inverter (P2 and N2), N3 turns off and P3 activates regularly. As the result, the identical resistor of the C node to VDD decreases, pulling up the voltage of node C further, which improve the rate of the switch withinside the VOUT. Since the control voltage may be used to set the threshold voltage of N3, and therefore the quantity of an additional current sink of N3, the switching threshold voltage from high to low (VHL) may be adjusted through the controlling voltage. The minimum VHL takes place when it reaches about VDD.
+ 
+ 
 <p align="center">
   
 
@@ -50,11 +62,11 @@ So, in this paper, we are going to make the CMOS low power consumption analog mu
 
 	   	Vdd = Supply voltage of the circuit
 	   	GND = Ground
-
-
-# Four-Quadrant Analog Multiplier:
-
-   The main purpose of designing a four-quadrant analog multiplier is to eliminate extra voltage reference to make a compact circuit design. By implementing and simulating this circuit in Synopsys Custom compiler tool using CMOS 28nm Technology, the device performance, density and low power consumption will be improved and achieved. The proposed design consists of a pair of common source amplifier with input transistors and the output that it gives is the square function of its input voltages v1 and v2. It contains a total of 10 transistors in which 8 are PMOS and 2 are comprised of NMOS including two resistors R1 and R2 to make the transistor to work in the proper region and the value of resistors has to be taken accordingly at the time of the simulation.  Transistor m1 to m8 acts as a non-linear cancellation path in a square root circuit. The output which comes from transistors m9 and m10 are directly going into the square root circuit block to produce differential output voltage or current which is just the product of the input signal v12 and v34. Here, v12 is the difference between v1 and v2 signal while v34 is the difference between v3 and v4 input signal and the resultant output signal Vout will be the differential output of vout1 and vout2. 
+		
+		
+		
+		
+		
 
 <p align="center">
 	
@@ -77,16 +89,16 @@ So, in this paper, we are going to make the CMOS low power consumption analog mu
 
 ## Schematics:
 
-### Four-Quadrant Analog Multiplier:
+### Schmitt Trigger:
 
 
 <p align="center">
   
-  Fig. 3: Four-Quadrant Analog Multiplier
+  Fig. 3: Schmitt Trigger
 </p>
 <p align="center">
   
-  Fig. 4:Four-Quadrant Analog Multiplier Symbol
+  Fig. 4:Schmitt Trigger Symbol
 </p>
 
 ### Buffer:
@@ -100,8 +112,8 @@ This component is used to convert the generated sine wave to a proper square pul
   Fig. 6: Buffer Symbol
 </p>
 
-### Four-Quadrant Analog Multiplier:
-The schematic of Four-Quadrant Analog Multiplier has been created using the above cells and a few transistors as shown in the below figure.
+### Schmitt Trigger:
+The schematic of Schmitt Trigger has been created using the above cells and a few transistors as shown in the below figure.
 <p align="center">
   
   Fig. 7: Four-Quadrant Analog Multiplier Schematic
@@ -113,7 +125,7 @@ The schematic of Four-Quadrant Analog Multiplier has been created using the abov
 One other thing we need to keep in mind is that here we have loop for which an initial condition needs to be declared. For that, we have to go to 'Setup -> Convergance aids' and select the net for which we want to set an initial condition.Then go to 'Simulations -> Netlist and Run' to generate a netlist and run the simulation to get the below output.
 <p align="center">
   
-  Fig. 8: Four-Quadrant Analog Multiplier Transient Analysis
+  Fig. 8: Schmitt Trigger Transient Analysis
 </p>
 
 # Netlist of the Circuit:
@@ -123,7 +135,7 @@ One other thing we need to keep in mind is that here we have loop for which an i
 
 
 # Author:
-• Vanshika Tanwar, B.Tech(ECE), Dronacharya Group of Institutions, Greater Nodia, Uttar Pradesh.
+• E Balakrishna, B.Tech(ECE), Dronacharya Group of Institutions, Greater Nodia, Uttar Pradesh.
 
 # Acknowledgements:
 
@@ -131,6 +143,6 @@ One other thing we need to keep in mind is that here we have loop for which an i
 - [Cloud Based Analog IC Design Hackathon](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)
 - [Indian Institute Of Technology (IIT) Hyderabad](https://iith.ac.in/)
 - [Kunal Ghosh](https://github.com/kunalg123), Founder, VSD Corp. Pvt. Ltd
--   [VLSI System Design (VSD) Corp. Pvt. Ltd India](https://www.vlsisystemdesign.com/)
+- [VLSI System Design (VSD) Corp. Pvt. Ltd India](https://www.vlsisystemdesign.com/)
 
 # References:
