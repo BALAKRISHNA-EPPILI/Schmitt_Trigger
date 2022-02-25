@@ -25,12 +25,12 @@ This repository presents the design of Analysis of CMOS Schmitt Trigger implemen
 
    The Schmitt trigger, delivered through Otto Schmitt in 1930s (Schmitt, 1938), and has been generally used with inside the area of communication and signal processing techniques for enhancing on/off control, decreasing the noise results in triggering devices, analog to digital conversion(ADC), and some of different rising packages such as frequency doublers, retinal focal-aircraft sensors, sub-threshold SRAM, sensors, pulse width modulation  circuits, wi-fi transponders, FPGA primarily based totally gadget and sensors, etc.
 
-<p align="center">
-  
-![schmitt trigger symbol](https://user-images.githubusercontent.com/88899069/155727948-4430a09e-9140-44ea-a840-63fa1726d8e6.jpg)
-
-  Fig. 1: Analog Multipier 
 </p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/155727948-4430a09e-9140-44ea-a840-63fa1726d8e6.jpg"></br>
+  Fig.1: Schmitt Trigger
+</p>
+
 
    A common disadvantage of Schmitt triggers is that the hysteresis is decided through different tools, dimensions, techniques, different parameters, factors and supply voltages. As a result, the hysteresis varies with system conditions and a range of the parameters must be tolerated from chip to chip, area to area in addition to from batch to batch. Several procedures had been proposed to implement a conventional Schmitt trigger. The switching thresholds are depending on the ratio of NMOS and PMOS. However, the design exhibited racing phenomena depending on while the transition started. A low voltage Schmitt trigger is proposed on this paper that could function from 1.8V-2V at high capacitance with much less propagation delay and strong hysteresis width by reducing the supply voltage
 
@@ -39,7 +39,11 @@ This repository presents the design of Analysis of CMOS Schmitt Trigger implemen
    A Schmitt trigger is a comparator circuit with hysteresis applied with the aid of using making use of positive feedback to the non-inverting input of a comparator or differential amplifier, Schmitt trigger is an active circuit which converts an analog input signal to a digital output signal, the circuit is known as a cause due to the fact the output keeps its price till the enter adjustments sufficiently to cause a change. In the non-inverting configuration, whilst the input is better than a designated threshold, the output is high. When the input is below a different (lower) selected threshold the output is low, and when the input is among the 2 ranges the output keeps its value.   There is a near relation among the 2 forms of circuits: a Schmitt trigger may be transformed right into a latch and a latch may be transformed right into a Schmitt trigger.
    Schmitt trigger devices are generally utilized in signal conditioning packages to remove noise from indicators utilized in digital circuits, mainly mechanical touch jump in switches. They also are utilized in closed loop terrible comments configurations to implement rest oscillators, utilized in characteristic generators and switching power supplies.
    
-   
+   </p>
+<p align="center">
+  <img src=""></br>
+  Fig.1: Schmitt Trigger
+</p>
 
 
 
