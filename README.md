@@ -54,17 +54,20 @@ the output keeps its price till the enter adjustments sufficiently to cause a ch
 threshold, the output is high. When the input is below a different (lower) selected threshold the output is low, and when the input is among the 2 ranges the output keeps its
 value. There is a near relation among the 2 forms of circuits: a Schmitt trigger may be transformed right into a latch and a latch may be transformed right into a Schmitt
 trigger.
+   
    Schmitt trigger devices are generally utilized in signal conditioning packages to remove noise from indicators utilized in digital circuits, mainly mechanical touch jump in
 switches. They also are utilized in closed loop terrible comments configurations to implement rest oscillators, utilized in characteristic generators and switching power
 supplies.
    
    The CMOS Schmitt trigger includes 3 NMOS transistors (N1, N2, and N3), and 3 PMOS transistors (P1, P2, and P3). It indicates the fundamental CMOS Schmitt trigger circuit
 design.
+
 The proposed Schmitt trigger is classified into components that is Part 1 and Part 2. Part 1 is included transistors of N1 and P1. Part2 is include inverters (N2, P2, N2, P3),
 even as the inverters serve 3 purposes. First, the switching threshold of the inverter is trusted the component ratio of PMOS and NMOS (kP and kN). Part 2 employs the unique
 ratio of the transistors to alternate the switching threshold of the inverter. Second, the part 2 CMOS inverters are connected in a high-quality feedback configuration,
 therefore speeding up the switching process. Third, the control voltages of the CMOS inverter in part 2 controls the depth of the feedback signal, therefore the switching
 threshold voltage of the Schmitt trigger.
+   
    The operation of the circuit may be defined as follows. Let's anticipate first of all that the input signal VIN is low. And the output signal VOUT is low too. So, transistors
 of N1, N3 is withinside the reduce off areas and P1, P3 is withinside the saturation areas. To transfer the VIN from low to high, the transistor N1 activates regularly, the
 voltage of node C decreases, at the same time as the VOUT regularly increases. when the same resistor of C node to ground decreases, flattening the voltage of node C further,
