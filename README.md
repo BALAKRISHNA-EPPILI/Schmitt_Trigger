@@ -112,6 +112,30 @@ power Schmitt trigger isverified from the given simulation.
 
 ## Schematics:
 
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/155808068-990e40d7-a3df-440f-9b1c-06e97caf46be.png"></br>
+  Fig.1: Schmitt Trigger
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/155808164-2ac3faf7-8f6f-4ba6-a9ca-944dc719fe14.png"></br>
+  Fig.1: cell Symbol(a)
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/155808230-4e9c3687-2e32-4491-869c-7a786b563721.png"></br>
+  Fig.1: cell Symbol(b)
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/155808359-29696b0e-9b4f-4144-b1df-5d0ab08e9439.png"></br>
+  Fig.1: cell Symbol(b)
+</p>
+
 ### Schmitt Trigger:
 
 
