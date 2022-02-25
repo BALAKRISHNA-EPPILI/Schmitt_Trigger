@@ -82,7 +82,7 @@ sink of N3, the switching threshold voltage from high to low (VHL) may be adjust
  
  </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155011823-c72c46ea-1cf8-4c27-8211-9dcab0887217.jpg"></br>
+  <img src="https://user-images.githubusercontent.com/88899069/155806677-7e1ff9d6-a06f-4281-9c05-052a0adf7555.jpg"></br>
   Fig.1: Schmitt Trigger
 </p>
 
@@ -90,7 +90,15 @@ sink of N3, the switching threshold voltage from high to low (VHL) may be adjust
 	   	GND = Ground
 		
 
-   Hence, on observing the output waveform we conclude that the given circuit become capable to operate with the input voltage and also the requirement of low power consumption for operating the circuit is also achieved.  (And also, the requirement of achieving low power consumption also met). So, a new square root circuit can be used to realize a CMOS four-quadrant analog multiplier has been given. For the verification purpose of the multiplier circuit, a performance simulation result has been given.
+  Hence, in the end, we can conclude that this proposed Schmitt trigger is modified by using 6 transistors having less power consumption and also its area estimates are also
+reduced as this whole simulation has been carried out in 28nm technology which is performed in Synopsys custom design tool. Therefore, the characteristic and operations of low
+power Schmitt trigger isverified from the given simulation.
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/155806959-5a51ebc7-b601-40d1-b085-f810e9cb6fbb.jpg"></br>
+  Fig.1: Refrence Waveform
+</p>
 
 # Tools Used:
 
@@ -107,25 +115,7 @@ sink of N3, the switching threshold voltage from high to low (VHL) may be adjust
 ### Schmitt Trigger:
 
 
-<p align="center">
-  
-  Fig. 3: Schmitt Trigger
-</p>
-<p align="center">
-  
-  Fig. 4:Schmitt Trigger Symbol
-</p>
 
-### Buffer:
-This component is used to convert the generated sine wave to a proper square pulse and is placed at the output of the VCO. This is nothing but a couple of inverters placed in series. 
-<p align="center">
-
-  Fig. 5: Buffer Schematic
-</p>
-<p align="center">
- 
-  Fig. 6: Buffer Symbol
-</p>
 
 ### Schmitt Trigger:
 The schematic of Schmitt Trigger has been created using the above cells and a few transistors as shown in the below figure.
