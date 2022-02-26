@@ -102,11 +102,26 @@ power Schmitt trigger isverified from the given simulation.
 
 # Tools Used:
 
-<b>• Synopsys Custom Compiler:</b></br>
-&emsp;The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.
+## Synopsys Custom Compiler:
+The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom
+Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a
+transistor level.
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/155798629-823e7866-48e3-4f3b-a955-8f02852f69e8.png"></br>
+  Fig.3: compilier
+</p>
+ 
+ </p>
+<p align="center">
+  <img src=""></br>
+  Fig.1: Schmitt Trigger
+</p>
+
 
 <b>• Synopsys 28nm PDK:</b></br>
-&emsp;The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
+The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
 
 # Pre-Layout Schematics and Simulations:
 
