@@ -148,17 +148,7 @@ This is the symbol of Schmitt Trigger as in this symbol the four circles which a
   Fig.1: cell Symbol(a)
 </p>
 
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/155808230-4e9c3687-2e32-4491-869c-7a786b563721.png"></br>
-  Fig.1: cell Symbol(b)
-</p>
 
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/155808359-29696b0e-9b4f-4144-b1df-5d0ab08e9439.png"></br>
-  Fig.1: cell Symbol(b)
-</p>
 
 ### Testbench of cell Symbol:
 This is the testbench of Four Quadrant Analog Multiplier in which its symbol is used and in which the other external connections are provided. Here, the Sinewave signal is used
@@ -183,10 +173,9 @@ For carrying simulation process in this tool Prime Wave is used. After creating 
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155835329-abe72b37-5b74-44b2-823c-92a77c3c90f5.jpg"></br>
-  Fig.11: Primewave
+  <img src="https://user-images.githubusercontent.com/88899069/155808359-29696b0e-9b4f-4144-b1df-5d0ab08e9439.png"></br>
+  Fig.1: Primewave
 </p>
-
 In the Primewave select the 'model file' i.e the '28nm PDK's .lib file present in the HSPICE folder. Now you see that model file has been included, now the next step which we need to do now is to include the analysis 
 
 </p>
