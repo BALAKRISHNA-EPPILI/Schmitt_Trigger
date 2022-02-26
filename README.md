@@ -164,12 +164,6 @@ provided at VSSA.
   Fig.1: cell Symbol(a)
 </p>
 
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/155808359-29696b0e-9b4f-4144-b1df-5d0ab08e9439.png"></br>
-  Fig.1: cell Symbol(b)
-</p>
-
 
 ## Simulations:
 ### Synopsys Primewave:
@@ -184,10 +178,17 @@ In the Primewave select the 'model file' i.e the '28nm PDK's .lib file present i
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155800668-ec14c672-31f7-4888-9d79-2fd74a7c1e27.png"></br>
-  Fig.12: Model file
+  <img src="https://user-images.githubusercontent.com/88899069/155856509-0aeb741d-c86e-4554-be2e-549903f20b28.PNG"></br>
+  Fig.12: Model file(a)
 </p>
 </p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/155856560-96004639-fecd-4f55-b6f0-1b5258628aa4.PNG"></br>
+  Fig.12: Model file(b)
+</p>
+</p
 
 ### Transient Analysis:
   Once that model file has been included, then after this select the 'tran' analysis in the analysis window and give the 'Start Time', 'Time Step' and 'Stop Time' parameters and
