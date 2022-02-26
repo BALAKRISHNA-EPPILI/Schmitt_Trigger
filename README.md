@@ -68,6 +68,17 @@ ratio of the transistors to alternate the switching threshold of the inverter. S
 therefore speeding up the switching process. Third, the control voltages of the CMOS inverter in part 2 controls the depth of the feedback signal, therefore the switching
 threshold voltage of the Schmitt trigger.
    
+    
+ </p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/155806677-7e1ff9d6-a06f-4281-9c05-052a0adf7555.jpg"></br>
+  Fig.1: Schmitt Trigger
+</p>
+
+	   	Vdd = Supply voltage of the circuit
+	   	GND = Ground
+		
+		
    The operation of the circuit may be defined as follows. Let's anticipate first of all that the input signal VIN is low. And the output signal VOUT is low too. So, transistors
 of N1, N3 is withinside the reduce off areas and P1, P3 is withinside the saturation areas. To transfer the VIN from low to high, the transistor N1 activates regularly, the
 voltage of node C decreases, at the same time as the VOUT regularly increases. when the same resistor of C node to ground decreases, flattening the voltage of node C further,
@@ -78,17 +89,6 @@ of P1 activates regularly, the voltage of node C increases, even as the VOUT reg
 (P2 and N2), N3 turns off and P3 activates regularly. As the result, the identical resistor of the C node to VDD decreases, pulling up the voltage of node C further, which
 improve the rate of the switch withinside the VOUT. Since the control voltage may be used to set the threshold voltage of N3, and therefore the quantity of an additional current
 sink of N3, the switching threshold voltage from high to low (VHL) may be adjusted through the controlling voltage. The minimum VHL takes place when it reaches about VDD.
- 
- 
- </p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/155806677-7e1ff9d6-a06f-4281-9c05-052a0adf7555.jpg"></br>
-  Fig.1: Schmitt Trigger
-</p>
-
-	   	Vdd = Supply voltage of the circuit
-	   	GND = Ground
-		
 
   Hence, in the end, we can conclude that this proposed Schmitt trigger is modified by using 6 transistors having less power consumption and also its area estimates are also
 reduced as this whole simulation has been carried out in 28nm technology which is performed in Synopsys custom design tool. Therefore, the characteristic and operations of low
@@ -110,22 +110,28 @@ transistor level.
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155798629-823e7866-48e3-4f3b-a955-8f02852f69e8.png"></br>
-  Fig.3: compilier
+  Fig.3: Synopsys Custom Compiler
 </p>
  
  </p>
 <p align="center">
-  <img src=""></br>
-  Fig.1: Schmitt Trigger
+  <img src="https://user-images.githubusercontent.com/88899069/155846887-571cf34d-8d71-48fe-804e-8300112494e2.PNG"></br>
+  Fig.1: Custom Compiler
 </p>
 
+<b>• Synopsys PrimeWave:</b></br>
+&emsp;PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory
+designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
 
 <b>• Synopsys 28nm PDK:</b></br>
-The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
+&emsp;The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
 
 # Pre-Layout Schematics and Simulations:
 
 ## Schematics:
+### Schmitt Trigger:
+This is the schematic of Schmitt Trigger in Synopsys custom compiler Tool which consist of 3 PMOS amd 3 NMOS in which after the PMOS and NMOS connections are complete I
+connected the input labels that is vin and output labels Vout providng VDDA label for power supply and VSSA label for ground.
 
 </p>
 <p align="center">
