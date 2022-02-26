@@ -155,9 +155,7 @@ This is the symbol of Schmitt Trigger as in this symbol the four circles which a
 </p>
 
 ### Testbench of cell Symbol:
-This is the testbench of Four Quadrant Analog Multiplier in which its symbol is used and in which the other external connections are provided. Here, the Sinewave signal is used
-for providing input to the multiplier and 3 Resistors are used named R1, R2 and R3 also Dc supply is given at 1.8v for providing power supply to the circuit and ground is
-provided at VSSA.
+
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/88899069/155808230-4e9c3687-2e32-4491-869c-7a786b563721.png"></br>
