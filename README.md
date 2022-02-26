@@ -129,15 +129,18 @@ designs within the Synopsys Custom Design Platform. This tool helped in various 
 # Pre-Layout Schematics and Simulations:
 
 ## Schematics:
-### Schmitt Trigger:
+### Schmitt Trigger schematic:
 This is the schematic of Schmitt Trigger in Synopsys custom compiler Tool which consist of 3 PMOS amd 3 NMOS in which after the PMOS and NMOS connections are complete I
 connected the input labels that is vin and output labels Vout providng VDDA label for power supply and VSSA label for ground.
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/88899069/155808068-990e40d7-a3df-440f-9b1c-06e97caf46be.png"></br>
-  Fig.1: Schmitt Trigger
+  Fig.1: Schmitt Trigger cell schematic
 </p>
+
+### Symbol
+This is the symbol of Schmitt Trigger as in this symbol the four circles which are shown indicates that there are input vin sine signal 
 
 </p>
 <p align="center">
