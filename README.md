@@ -211,30 +211,28 @@ Now, we need to save the testbench state for that Go to "Testbench" on the top l
 For simulation and netlist Go to "Simulation" on the top left corner and then click on "Netlist and Run", the Respective Waveform has now been generated of Analog Multiplier
 also at the same time netlist was generated automatically. To see the netlist click on "netlist" and then go to "Display", text viewer will open in which the generated netlist
 has been displayed. Also, for the Log file go to simulation and then click on "Log File", the log file is displayed.
-
-
-This is the output waveform of input v1 and v3.
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/155857677-558befde-d38a-4aaa-bb4b-a3d980290cfc.png"></br>
+  Fig.14: Waveform(a)
 </p>
 
-### Schmitt Trigger:
-
-
-
-
-### Schmitt Trigger:
-The schematic of Schmitt Trigger has been created using the above cells and a few transistors as shown in the below figure.
+</p>
 <p align="center">
-  
-  Fig. 7: Four-Quadrant Analog Multiplier Schematic
+  <img src="https://user-images.githubusercontent.com/88899069/155857688-a8b4c121-23ac-4273-9cc8-b1fe879d379a.png"></br>
+  Fig.14: Waveform(b)
 </p>
 
-## Simulations:
-### Transient Analysis:
-   After creating and saving the schematic go to 'Tools' and open 'Primewave' to start the simulation. In the Primewave select the 'model file' i.e the '28nm PDK's .lib file presentin the HSPICE folder. After this select the 'tran' analysis in the analysis window and give the 'Start', 'Stop', and 'Step Size' parameters and save it. Then add the outputs which needs to be plotted by selecting the nets on the schematic.</br>
-One other thing we need to keep in mind is that here we have loop for which an initial condition needs to be declared. For that, we have to go to 'Setup -> Convergance aids' and select the net for which we want to set an initial condition.Then go to 'Simulations -> Netlist and Run' to generate a netlist and run the simulation to get the below output.
+</p>
 <p align="center">
-  
-  Fig. 8: Schmitt Trigger Transient Analysis
+  <img src="https://user-images.githubusercontent.com/88899069/155857692-26faf92c-f090-4a90-8248-155b705de648.png"></br>
+  Fig.14: Waveform(c)
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/155857694-90c7d0ae-416f-49ee-ba66-133ba4f4b81d.png"></br>
+  Fig.14: Waveform(d)
 </p>
 
 # Netlist of the Circuit:
