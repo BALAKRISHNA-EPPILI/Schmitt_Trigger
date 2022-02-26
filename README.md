@@ -160,6 +160,68 @@ This is the symbol of Schmitt Trigger as in this symbol the four circles which a
   Fig.1: cell Symbol(b)
 </p>
 
+### Testbench of cell Symbol:
+This is the testbench of Four Quadrant Analog Multiplier in which its symbol is used and in which the other external connections are provided. Here, the Sinewave signal is used
+for providing input to the multiplier and 3 Resistors are used named R1, R2 and R3 also Dc supply is given at 1.8v for providing power supply to the circuit and ground is
+provided at VSSA.
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/155808230-4e9c3687-2e32-4491-869c-7a786b563721.png"></br>
+  Fig.1: cell Symbol(a)
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/155808359-29696b0e-9b4f-4144-b1df-5d0ab08e9439.png"></br>
+  Fig.1: cell Symbol(b)
+</p>
+
+
+## Simulations:
+### Synopsys Primewave:
+For carrying simulation process in this tool Prime Wave is used. After creating and saving & check the schematic go to 'Tools' and open 'Primewave' to start the simulation.
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/155835329-abe72b37-5b74-44b2-823c-92a77c3c90f5.jpg"></br>
+  Fig.11: Primewave
+</p>
+
+In the Primewave select the 'model file' i.e the '28nm PDK's .lib file present in the HSPICE folder. Now you see that model file has been included, now the next step which we need to do now is to include the analysis 
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/155800668-ec14c672-31f7-4888-9d79-2fd74a7c1e27.png"></br>
+  Fig.12: Model file
+</p>
+</p>
+
+### Transient Analysis:
+  Once that model file has been included, then after this select the 'tran' analysis in the analysis window and give the 'Start Time', 'Time Step' and 'Stop Time' parameters and
+ save it. Then add the outputs which needs to be plotted by selecting the nets from the design.
+ 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/155800180-c6f8e2e6-10e9-41b1-b4c4-0980034b6ff4.png"></br>
+  Fig.13: Analysis
+</p>
+
+Now, we need to save the testbench state for that Go to "Testbench" on the top left corner and then "click" on it then Go to "Save state", Press "OK" or hit "Enter".
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/155801132-972f490a-b6c5-4279-a818-3c71af949878.png"></br>
+  Fig.14: Save Testbench State
+</p>
+
+### Waveform:
+For simulation and netlist Go to "Simulation" on the top left corner and then click on "Netlist and Run", the Respective Waveform has now been generated of Analog Multiplier
+also at the same time netlist was generated automatically. To see the netlist click on "netlist" and then go to "Display", text viewer will open in which the generated netlist
+has been displayed. Also, for the Log file go to simulation and then click on "Log File", the log file is displayed.
+
+
+This is the output waveform of input v1 and v3.
+</p>
+
 ### Schmitt Trigger:
 
 
