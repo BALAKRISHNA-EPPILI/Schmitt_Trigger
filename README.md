@@ -135,7 +135,7 @@ connected the input labels that is vin and output labels Vout providng VDDA labe
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/155808068-990e40d7-a3df-440f-9b1c-06e97caf46be.png"></br>
+  <img src="https://user-images.githubusercontent.com/88899069/155856022-b04a6b1b-045f-4b12-94f1-bb90c790030f.png"></br>
   Fig.1: Schmitt Trigger cell schematic
 </p>
 
@@ -144,11 +144,15 @@ This is the symbol of Schmitt Trigger as in this symbol the four circles which a
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/155808164-2ac3faf7-8f6f-4ba6-a9ca-944dc719fe14.png"></br>
+  <img src="https://user-images.githubusercontent.com/88899069/155856045-a7532a1f-84c7-4c6a-9323-705d3144356f.png"></br>
   Fig.1: cell Symbol(a)
 </p>
 
-
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/155856281-6e5160ed-0ad5-4b14-b18b-6b31b524c55a.png"></br>
+  Fig.1: cell Symbol(b)
+</p>
 
 ### Testbench of cell Symbol:
 This is the testbench of Four Quadrant Analog Multiplier in which its symbol is used and in which the other external connections are provided. Here, the Sinewave signal is used
