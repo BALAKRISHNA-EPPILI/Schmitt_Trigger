@@ -307,14 +307,23 @@ the netlist of your circuit  has been displayed.
   Fig.14: Waveform(d)
 </p>
 
+
 # Netlist of the Circuit:
 
+Refer to the netlist of the circuit here: <a href='Netlist'>Netlist</a>
 
-# Observations:
+# Log_File of the Circuit:
+
+Refer to the log_file of the circuit here: <a href='Log_file'>Log_File</a>
 
 
-# Author:
-• E Balakrishna, B.Tech(ECE), Dronacharya Group of Institutions, Greater Nodia, Uttar Pradesh.
+# References:
+[1]. https://iiste.org/Journals/index.php/ISDE/article/view/1106/1027- 
+
+[2]. https://www.researchgate.net/profile/Konjeti-Pavan-Kumar/publication/334192413_Design_and_Analysis_of_CMOS_Schmitt_Trigger/links/6005123145851553a0508496/Design-and-
+Analysis-of-CMOS-Schmitt-Trigger.pdf 
+
+[3]. https://tarjomefa.com/wp-content/uploads/2018/04/8976-English-TarjomeFa.pdf
 
 # Acknowledgements:
 
@@ -323,14 +332,8 @@ the netlist of your circuit  has been displayed.
 - [Indian Institute Of Technology (IIT) Hyderabad](https://iith.ac.in/)
 - [Kunal Ghosh](https://github.com/kunalg123), Founder, VSD Corp. Pvt. Ltd
 - [VLSI System Design (VSD) Corp. Pvt. Ltd India](https://www.vlsisystemdesign.com/)
+- [SUMANTO KAR](https://github.com/Eyantra698Sumanto)
+- [Sameer S Durgoji](https://github.com/vsdip/avsddac_3v3_sky130_v2)
 
-# References:
-
-
-copy
-
-</p>
-<p align="center">
-  <img src=""></br>
-  Fig.1: Schmitt Trigger
-</p>
+# Author:
+• E BALAKRISHNA, B.Tech(ECE), Dronacharya Group of Institutions, Greater Nodia, Uttar Pradesh.
