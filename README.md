@@ -326,7 +326,6 @@ Refer to the netlist of the circuit here: <a href='Netlist'>Netlist</a>
 
 Refer to the log_file of the circuit here: <a href='Log_File'>Log_File</a>
 
-
 # References:
 [1]. https://iiste.org/Journals/index.php/ISDE/article/view/1106/1027- 
 
