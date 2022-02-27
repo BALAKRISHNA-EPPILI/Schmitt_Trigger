@@ -212,9 +212,17 @@ For carrying simulation process in this tool Prime Wave is used. After creating 
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/155808359-29696b0e-9b4f-4144-b1df-5d0ab08e9439.png"></br>
-  Fig.1: Primewave
+  <img src="https://user-images.githubusercontent.com/88899069/155877001-fff41d13-52c3-4dfe-b104-797acc6fbe5b.png"></br>
+  Fig.1: Primewave(a)
 </p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/155877032-e861bb40-0f64-4451-a8d5-4d58b5956edc.PNG"></br>
+  Fig.1: Primewave(b)
+</p>
+
+
 In the Primewave select the 'model file' i.e the '28nm PDK's .lib file present in the HSPICE folder. Now you see that model file has been included, now the next step which we need to do now is to include the analysis 
 
 </p>
