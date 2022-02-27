@@ -330,9 +330,9 @@ Refer to the log_file of the circuit here: <a href='Log_File'>Log_File</a>
 # References:
 [1]. https://iiste.org/Journals/index.php/ISDE/article/view/1106/1027- 
 
-[2]. https://www.researchgate.net/profile/Konjeti-Pavan-Kumar/publication/334192413_Design_and_Analysis_of_CMOS_Schmitt_Trigger/links/6005123145851553a0508496/Design-and-
-Analysis-of-CMOS-Schmitt-Trigger.pdf 
-
+[2]. https://www.researchgate.net/profile/Konjeti-Pavan-Kumar/publication/334192413_Design_and_Analysis_of_CMOS_Schmitt_Trigger/links/6005123145851553a0508496/Design-andAnalysis-of-CMOS-Schmitt-Trigger.pdf 
+https://www.researchgate.net/profile/Konjeti-Pavan-Kumar/publication/334192413_Design_and_Analysis_of_CMOS_Schmitt_Trigger/links/6005123145851553a0508496/Design-and-Analysis-of-
+CMOS-Schmitt-Trigger.pdf
 [3]. https://tarjomefa.com/wp-content/uploads/2018/04/8976-English-TarjomeFa.pdf
 
 # Acknowledgements:
