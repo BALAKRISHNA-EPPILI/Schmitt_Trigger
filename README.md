@@ -46,7 +46,7 @@ sensors, etc.
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/88899069/155727948-4430a09e-9140-44ea-a840-63fa1726d8e6.jpg"></br>
-  Fig.1: Schmitt Trigger
+  Fig.1: Symbol of Schmitt Trigger
 </p>
 
 
@@ -82,7 +82,7 @@ threshold voltage of the Schmitt trigger.
  </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/88899069/155806677-7e1ff9d6-a06f-4281-9c05-052a0adf7555.jpg"></br>
-  Fig.1: Schmitt Trigger
+  Fig.2: Schmitt Trigger
 </p>
 
 	   	Vdd = Supply voltage of the circuit
@@ -103,12 +103,6 @@ sink of N3, the switching threshold voltage from high to low (VHL) may be adjust
   Hence, in the end, we can conclude that this proposed Schmitt trigger is modified by using 6 transistors having less power consumption and also its area estimates are also
 reduced as this whole simulation has been carried out in 28nm technology which is performed in Synopsys custom design tool. Therefore, the characteristic and operations of low
 power Schmitt trigger isverified from the given simulation.
-
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/155806959-5a51ebc7-b601-40d1-b085-f810e9cb6fbb.jpg"></br>
-  Fig.1: Refrence Waveform
-</p>
 
 # Installation process:
 1. First we right click and create a New Folder, and we have created one folder (I give a folder named schmitt_trigger_by_balakrishna)
@@ -141,13 +135,13 @@ transistor level.
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155798629-823e7866-48e3-4f3b-a955-8f02852f69e8.png"></br>
-  Fig.3: Synopsys Custom Compiler
+  Fig.4: Synopsys Custom Compiler
 </p>
  
  </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/88899069/155846887-571cf34d-8d71-48fe-804e-8300112494e2.PNG"></br>
-  Fig.1: Custom Compiler
+  Fig.5: Custom Compiler
 </p>
 
 <b>• Synopsys PrimeWave:</b></br>
@@ -177,7 +171,7 @@ Now, finally your schematic has been created and now you can implement your circ
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/88899069/155872807-d106c4d3-743f-44a3-9467-fc0baf0bdaae.PNG"></br>
-  Fig.5: Library manager
+  Fig.6: Library manager
 </p>
 
 
@@ -203,7 +197,7 @@ VSSA= Pin for Ground
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/88899069/155856022-b04a6b1b-045f-4b12-94f1-bb90c790030f.png"></br>
-  Fig.1: Schmitt Trigger cell schematic
+  Fig.7: Schmitt Trigger cell schematic
 </p>
 
 ### Symbol
@@ -211,21 +205,24 @@ VSSA= Pin for Ground
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/88899069/155876891-f7b09163-20b0-44c1-8af1-48a35c580c82.PNG"></br>
-  Fig.1: cell Symbol(a)
+  Fig.8: cell Symbol(a)
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/88899069/155876906-80f9f21c-682f-4833-b0e3-45122cb708e5.PNG"></br>
-  Fig.1: cell Symbol(b)
+  Fig.9: cell Symbol(b)
 </p>
 
 ### Testbench of cell Symbol:
 
+This is the testbench of the Schmitt trigger circuit in which a sine wave signal has been given on "vin" pin and a resistor is connected at the "Vout" pin for taking the output.
+And At VDDA we have given the a dc power supply voltage which give power to the circuit to start working also at VSSA terminal pin a ground is connected.
+
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/88899069/155876950-9ecf0bc8-3073-4302-aea1-0aa3924dd64e.PNG"></br>
-  Fig.1: cell Symbol(a)
+  Fig.10: cell Symbol(a)
 </p>
 
 
@@ -236,13 +233,13 @@ For carrying simulation process in this tool Prime Wave is used. After creating 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/88899069/155877001-fff41d13-52c3-4dfe-b104-797acc6fbe5b.png"></br>
-  Fig.1: Primewave(a)
+  Fig.11: Primewave(a)
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/88899069/155877032-e861bb40-0f64-4451-a8d5-4d58b5956edc.PNG"></br>
-  Fig.1: Primewave(b)
+  Fig.12: Primewave(b)
 </p>
 
 
@@ -251,25 +248,26 @@ In the Primewave select the 'model file' i.e the '28nm PDK's .lib file present i
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/88899069/155856509-0aeb741d-c86e-4554-be2e-549903f20b28.PNG"></br>
-  Fig.12: Model file(a)
+  Fig.13: Model file(a)
 </p>
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/88899069/155856560-96004639-fecd-4f55-b6f0-1b5258628aa4.PNG"></br>
-  Fig.12: Model file(b)
+  Fig.14: Model file(b)
 </p>
 </p
 
 ### Transient Analysis: 
-  Once that model file has been included, then after this select the 'tran' analysis in the analysis window and give the 'Start Time', 'Time Step' and 'Stop Time' parameters
+
+Once that model file has been included, then after this select the 'tran' analysis in the analysis window and give the 'Start Time', 'Time Step' and 'Stop Time' parameters
 respectively and save it. Then add the outputs on the right bottom corner in the expression column which need to be plotted by selecting the nets from the design of testbench of
 the circuit .
  
 <p align="center">
   <img src="https://user-images.githubusercontent.com/88899069/155876835-67096a15-2c07-4709-aeb5-467bc68b6619.PNG"></br>
-  Fig.13: Analysis
+  Fig.15: Analysis
 </p>
 
 Now for the simulation purpose we need to first save the state of the testbench after selecting the respected plotted variable. So, for that Go to Tectbench on top then click on
@@ -278,7 +276,7 @@ it , Go to "save state" then click on it . All the things have been written by d
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/88899069/155876848-0b46cc62-8a64-436d-834c-c212550fd8b1.PNG"></br>
-  Fig.14: Save Testbench State
+  Fig.16: Save Testbench State
 </p>
 
 ### Waveform:
@@ -296,25 +294,25 @@ the netlist of your circuit  has been displayed.
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/88899069/155857677-558befde-d38a-4aaa-bb4b-a3d980290cfc.png"></br>
-  Fig.14: Waveform(a)
+  Fig.17: Waveform(a)
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/88899069/155857688-a8b4c121-23ac-4273-9cc8-b1fe879d379a.png"></br>
-  Fig.14: Waveform(b)
+  Fig.18: Waveform(b)
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/88899069/155857692-26faf92c-f090-4a90-8248-155b705de648.png"></br>
-  Fig.14: Waveform(c)
+  Fig.19: Waveform(c)
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/88899069/155857694-90c7d0ae-416f-49ee-ba66-133ba4f4b81d.png"></br>
-  Fig.14: Waveform(d)
+  Fig.20: Waveform(d)
 </p>
 
 
