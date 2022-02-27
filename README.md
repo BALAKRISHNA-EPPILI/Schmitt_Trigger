@@ -100,6 +100,20 @@ power Schmitt trigger isverified from the given simulation.
   Fig.1: Refrence Waveform
 </p>
 
+# Installation process:
+1. First we right click and create a New Folder, and we have created one folder (I give a folder named schmitt_trigger_by_balakrishna)
+2. Then we go to that folder by double clicking & open terminal by right clicking. And Install PDK32nm/lib.defs.
+3. Once install and then type this command
+
+           tcsh
+	   source /Applications/Synopsys/cshrc_syn_2021.09
+           
+4.Then You should get one welcome message if all the spellings are correct.
+5.Now we are ready to open the Synopsys custom compiler and type command
+
+           custom_compiler &
+6.Then open your Custom compiler
+
 # Tools Used:
 
 ## Synopsys Custom Compiler:
@@ -129,6 +143,28 @@ designs within the Synopsys Custom Design Platform. This tool helped in various 
 # Pre-Layout Schematics and Simulations:
 
 ## Schematics:
+
+For implementing the circuit first we need to create library for that there are several steps which we need to do for creating it. These steps are:-
+
+1.  Go to "file" click on "new", click on "Library" as we need to create the library of our respective circuit ,Give the name of the circuit according to your circuit or
+ suitability which you want to create.
+
+2. After this select which library you want to insert in your design, For example As in my circuit I have to insert the 28nm PDK library so, I selected the "Tech Library" and 
+thenselect the 28nm PDK library from the respective location. 
+
+3. After this click on "OK"
+
+Now, a library of the respective circuit is created
+Similarly, now we need to create the cell. For creating that Go to the cell column and do right-click , click on "New" now, give the name of the cell and Ok. Similarly, for
+creating a schematic of the circuit in the View column the same procedure has been followed as above.
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/155872807-d106c4d3-743f-44a3-9467-fc0baf0bdaae.PNG"></br>
+  Fig.5: Library manager
+</p>
+
+
 ### Schmitt Trigger schematic:
 This is the schematic of Schmitt Trigger in Synopsys custom compiler Tool which consist of 3 PMOS amd 3 NMOS in which after the PMOS and NMOS connections are complete I
 connected the input labels that is vin and output labels Vout providng VDDA label for power supply and VSSA label for ground.
