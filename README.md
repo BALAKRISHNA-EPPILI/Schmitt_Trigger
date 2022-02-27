@@ -30,7 +30,7 @@ This repository presents the design of Analysis of CMOS Schmitt Trigger implemen
 that is decided through the tool dimensions, technique parameters and supply voltages. This situation gives a Schmitt Trigger circuit capability that it could perform at low
 voltage. The proposed circuit is designed based on Conventional  Schmitt Trigger through manipulating the association of transistors’  width-period ratio.
    
-   In this paper, we are going to do the analysis of Conventional Schmitt  Trigger in 28 nm technology. We are going to carry out the whole  simulation of the proposed design of
+   Therefore, we are going to do the analysis of Conventional Schmitt  Trigger in 28 nm technology. We are going to carry out the whole  simulation of the proposed design of
 Conventional Schmitt Trigger in Synopsys custom design platform tool Software which is an EDA tool in  which we simulate our circuit in Synopsys custom design compiler tool.
 From the simulation results, it has been observed that the proposed  design can perform at a low voltage of 1.8V. The circuit gives much less  propagation delay as compared
 to the traditional circuit. It may be widely utilized in various low voltage analogous and digital applications. 
@@ -176,6 +176,16 @@ Now, finally your schematic has been created and now you can implement your circ
 
 
 ### Schmitt Trigger schematic:
+This is the respective schematic of the Schmitt trigger in the Synopsys tool . It contains total of 6 MOSFETs  in which 3 are PMOS and 3 are NMOS . Also ,there are 4 labels that is  vin,Vout,VDDA and VSSA . Now in the next step we first made symbol of schematic and then create testbench of the symbol in which external supplies and elements are connected. The steps for proceeding further are given below.
+
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/155856022-b04a6b1b-045f-4b12-94f1-bb90c790030f.png"></br>
+  Fig.7: Schmitt Trigger cell schematic
+</p>
+
+### Symbol
 This is the symbol of Schmitt Trigger as in this symbol there are 2 signals  which are shown in which the upper signal or the curved signal is the sine wave signal which is the
 input of schmitt trigger and the other square wave signal which indicates the output of schmitt Trigger . So, The whole symbol indicates that schmitt trigger converts the sine
 wave into the square wave . 
@@ -193,14 +203,6 @@ VDDA=Power supply voltage
 Vout=Pin for output signal 
 
 VSSA= Pin for Ground
-
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/155856022-b04a6b1b-045f-4b12-94f1-bb90c790030f.png"></br>
-  Fig.7: Schmitt Trigger cell schematic
-</p>
-
-### Symbol
 
 </p>
 <p align="center">
