@@ -1,0 +1,66 @@
+*  Generated for: PrimeSim
+*  Design library name: sch_trig_lib
+*  Design cell name: schmitt_trigger_tb
+*  Design view name: schematic
+.lib 'saed32nm.lib' TT
+
+*Custom Compiler Version S-2021.09
+*Sun Feb 27 10:16:37 2022
+
+.global gnd!
+********************************************************************************
+* Library          : sch_trig_lib
+* Cell             : schmitt_trigger
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt schmitt_trigger vdda vssa vout vin
+xm9 net5 vout vssa vdda p105 w=0.1u l=0.03u nf=1 m=1
+xm1 vout vin net5 vdda p105 w=0.1u l=0.03u nf=1 m=1
+xm0 net5 vin vdda vdda p105 w=0.1u l=0.03u nf=1 m=1
+xm4 net17 vin vssa vssa n105 w=0.1u l=0.03u nf=1 m=1
+xm3 vout vin net17 vssa n105 w=0.1u l=0.03u nf=1 m=1
+xm8 net17 vout vdda vssa n105 w=0.1u l=0.03u nf=1 m=1
+.ends schmitt_trigger
+
+********************************************************************************
+* Library          : sch_trig_lib
+* Cell             : schmitt_trigger_tb
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+v12 net31 gnd! dc=1.8
+r11 vout gnd! r=2100k
+v10 vin gnd! dc=0 sin ( 0 2.2 200 0 0 0 )
+xi9 net31 gnd! vout vin schmitt_trigger
+
+
+
+
+
+
+
+
+.tran '1m' '20m' start=0m name=tran
+
+.option primesim_remove_probe_prefix = 0
+.probe v(*) i(*) level=1
+.probe tran v(vout) v(vin)
+
+.temp 25
+
+
+
+.option primesim_output=wdf
+
+
+.option parhier = LOCAL
+
+
+
+
+
+
+.end
