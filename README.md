@@ -317,6 +317,13 @@ the netlist of your circuit  has been displayed.
   Fig.20: Waveform(d)
 </p>
 
+## CONCLUSION: 
+
+The design of a CMOS Schmitt trigger may be finished if the unique circuit operation close to the transition factors is analyzed.
+This evaluation offers real thresholds and lets in one to assess the distinction among the thresholds and the preliminary factors of transitions (which might be incorrectly
+taken into consideration and targeted as thresholds). 
+The voltage-modern-day traits of the trigger sub circuits permit one to specify the situations to make the trigger switch function more rectangular. The evaluation is legitimate
+if the fabrication generation lets in the usage of the square-regulation traits of MOS devices.
 
 # Netlist of the Circuit:
 
