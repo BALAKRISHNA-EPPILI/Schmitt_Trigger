@@ -19,7 +19,7 @@ This repository presents the design of Analysis of CMOS Schmitt Trigger implemen
 	- [Synopsys Primewave](#Synopsys-Primewave)
 	- [Transient Analysis](#Transient-Analysis)
 	- [Waveform](#Waveform)
-- [CONCLUSIONS](#CONCLUSIONS)
+- [CONCLUSION](#CONCLUSION)
 - [Netlist of the Circuit](#Netlist-of-the-Circuit)
 - [Log_File of the Circuit](#Log_File-of-the-Circuit)
 - [References](#references)
