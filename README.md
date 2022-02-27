@@ -151,19 +151,18 @@ designs within the Synopsys Custom Design Platform. This tool helped in various 
 
 ## Schematics:
 
-For implementing the circuit first we need to create library for that there are several steps which we need to do for creating it. These steps are:-
+Now, I need to implement the circuit of Schmitt Trigger in Synopsys Custom Compiler Tool so, For implementing the circuit first there are some steps which one need to follow :
 
-1.  Go to "file" click on "new", click on "Library" as we need to create the library of our respective circuit ,Give the name of the circuit according to your circuit or
- suitability which you want to create.
+1) As synopsys tool open Go to "file" on left hand top corner click on it then there are several options come there click on "new" then click on library , it ask for the name so, give the name of the library which you want to create of the circuit . Now also include the library in that file for example in my circuit I included the library of 28nm PDK.
 
-2. After this select which library you want to insert in your design, For example As in my circuit I have to insert the 28nm PDK library so, I selected the "Tech Library" and 
-thenselect the 28nm PDK library from the respective location. 
+2) After performing the first step , now similarly I need to create the cell of the circuit for that go to the cell column 
+Right Click on it then click on "NEW" then it ask for the name of the Cell , give it name according to your wish .
 
-3. After this click on "OK"
+3) Similarly now for creating the schematic of our circuit we need to create a file of schematic in the view column .
 
-Now, a library of the respective circuit is created
-Similarly, now we need to create the cell. For creating that Go to the cell column and do right-click , click on "New" now, give the name of the cell and Ok. Similarly, for
-creating a schematic of the circuit in the View column the same procedure has been followed as above.
+For creating this file follow the step 2 as you make the cell .
+
+Now, finally your schematic has been created and now you can implement your circuit .
 
 </p>
 <p align="center">
@@ -173,8 +172,16 @@ creating a schematic of the circuit in the View column the same procedure has be
 
 
 ### Schmitt Trigger schematic:
-This is the schematic of Schmitt Trigger in Synopsys custom compiler Tool which consist of 3 PMOS amd 3 NMOS in which after the PMOS and NMOS connections are complete I
-connected the input labels that is vin and output labels Vout providng VDDA label for power supply and VSSA label for ground.
+This is the symbol of Schmitt Trigger as in this symbol there are 2 signals  which are shown in which the upper signal or the curved signal is the sine wave signal which is the
+input of schmitt trigger and the other square wave signal which indicates the output of schmitt Trigger . So, The whole symbol indicates that schmitt trigger converts the sine
+wave into the square wave . 
+
+This symbol consist of 4 pins . These pins are :
+vin, VDDA,Vout and VSSA 
+vin=Pin for Input signal 
+VDDA=Power supply voltage 
+Vout=Pin for output signal 
+VSSA= Pin for Ground
 
 </p>
 <p align="center">
@@ -183,7 +190,6 @@ connected the input labels that is vin and output labels Vout providng VDDA labe
 </p>
 
 ### Symbol
-This is the symbol of Schmitt Trigger as in this symbol the four circles which are shown indicates that there are input vin sine signal 
 
 </p>
 <p align="center">
@@ -240,15 +246,17 @@ In the Primewave select the 'model file' i.e the '28nm PDK's .lib file present i
 </p
 
 ### Transient Analysis:
-  Once that model file has been included, then after this select the 'tran' analysis in the analysis window and give the 'Start Time', 'Time Step' and 'Stop Time' parameters and
- save it. Then add the outputs which needs to be plotted by selecting the nets from the design.
+  Once that model file has been included, then after this select the 'tran' analysis in the analysis window and give the 'Start Time', 'Time Step' and 'Stop Time' parameters
+respectively and save it. Then add the outputs on the right bottom corner in the expression column which need to be plotted by selecting the nets from the design of testbench of
+the circuit .
  
 <p align="center">
   <img src="https://user-images.githubusercontent.com/88899069/155876835-67096a15-2c07-4709-aeb5-467bc68b6619.PNG"></br>
   Fig.13: Analysis
 </p>
 
-Now, we need to save the testbench state for that Go to "Testbench" on the top left corner and then "click" on it then Go to "Save state", Press "OK" or hit "Enter".
+Now for the simulation purpose we need to first save the state of the testbench after selecting the respected plotted variable. So, for that Go to Tectbench on top then click on
+it , Go to "save state" then click on it . All the things have been written by default we just need to click "OK"
 
 </p>
 <p align="center">
@@ -257,9 +265,16 @@ Now, we need to save the testbench state for that Go to "Testbench" on the top l
 </p>
 
 ### Waveform:
-For simulation and netlist Go to "Simulation" on the top left corner and then click on "Netlist and Run", the Respective Waveform has now been generated of Analog Multiplier
-also at the same time netlist was generated automatically. To see the netlist click on "netlist" and then go to "Display", text viewer will open in which the generated netlist
-has been displayed. Also, for the Log file go to simulation and then click on "Log File", the log file is displayed.
+Now, for simulating the circuit go to the simulation on the top bar click on it then there are several options come there one option is "Netlist and Run" and the other is "Run"
+only but since we need our netlist also so, click on "Netlist and Run" then it loads and on transient analysis, it is showing the status of simulation like 
+Simulation:Ready-----then , Running -----then Completed 
+Your waveform of the circuit automatically opens and your waveform is displayed finally in front of you. 
+Also,  at the same time netlist is also generated so, go back to the Test Suite window and go back to the simulation button and click on "Netlist" there, click on "Display" now
+the netlist of your circuit  has been displayed. 
+
+  Also, the same procedure is followed for displaying of log file just go to simulation and click on log display then your log file has been displayed in front of you.
+  
+  
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/88899069/155857677-558befde-d38a-4aaa-bb4b-a3d980290cfc.png"></br>
