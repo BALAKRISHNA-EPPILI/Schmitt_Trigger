@@ -113,7 +113,7 @@ power Schmitt trigger isverified from the given simulation.
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/88899069/155874221-0ad28012-fc03-424a-89c8-d47db5d7f9b7.PNG"></br>
-  Fig.3: Synopsys Custom Compiler
+  Fig.3: Terminal
 </p>
 
 5.Now we are ready to open the Synopsys custom compiler and type command
