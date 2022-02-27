@@ -3,17 +3,24 @@ This repository presents the design of Analysis of CMOS Schmitt Trigger implemen
 
 
 # Table of Contents
- * [Abstract](#Abstract)
- * [Introduction](#Introduction)
- * [Schmitt_Trigger](#Schmitt-Trigger)
- * [Four-Quadrant Analog Multiplier](#Four-Quadrant-Analog-Multiplier)
- * [Tools Used](#Tools-Used)
- * [Pre-Layout Schematics and Simulations](#Pre-Layout-Schematics-and-Simulations)
- * [Netlist of the Circuit](#Netlist-of-the-Circuit)
- * [Observations](#Observations)
- * [Author](#Author)
- * [Acknowledgements](#Acknowledgements)
- * [References](#References)
+
+- [Abstract](#Abstract)
+- [Introduction](#Introduction)
+- [Four-Quadrant Analog Multiplier](#Four-Quadrant-Analog-Multiplier)
+- [Tools Used](#Tools-Used)
+	- [Synopsys Custom Compiler](#Synopsys-Custom-Compiler)
+- [Pre-Layout Schematics and Simulations](#Pre-Layout-Schematics-and-Simulations)
+	- [Schematics](#Schematics)
+	- [Four-Quadrant Analog Multiplier schematic](#Four-Quadrant-Analog-Multiplier-schematic)
+	- [Symbol](#Symbol)
+	- [Testbench of cell Symbol](#Testbench-of-cell-Symbol)
+- [Simulations](#Simulations)
+	- [Synopsys Primewave](#Synopsys-Primewave)
+	- [Transient Analysis](#Transient-Analysis)
+	- [Waveform](#Waveform)
+- [References](#references)
+- [Acknowledgement](#acknowledgement)
+- [Author](#author)
 
 # Abstract
    Schmitt Trigger circuit is extensively utilized in analog and digital circuit (ADC) to clear up the noise problem. Hysteresis is a common disadvantage of the Schmitt Triggers
