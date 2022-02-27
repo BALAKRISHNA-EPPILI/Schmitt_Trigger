@@ -187,13 +187,13 @@ This is the symbol of Schmitt Trigger as in this symbol the four circles which a
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/155856045-a7532a1f-84c7-4c6a-9323-705d3144356f.png"></br>
+  <img src="https://user-images.githubusercontent.com/88899069/155876891-f7b09163-20b0-44c1-8af1-48a35c580c82.PNG"></br>
   Fig.1: cell Symbol(a)
 </p>
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/155856281-6e5160ed-0ad5-4b14-b18b-6b31b524c55a.png"></br>
+  <img src="https://user-images.githubusercontent.com/88899069/155876906-80f9f21c-682f-4833-b0e3-45122cb708e5.PNG"></br>
   Fig.1: cell Symbol(b)
 </p>
 
@@ -201,7 +201,7 @@ This is the symbol of Schmitt Trigger as in this symbol the four circles which a
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/155808230-4e9c3687-2e32-4491-869c-7a786b563721.png"></br>
+  <img src="https://user-images.githubusercontent.com/88899069/155876950-9ecf0bc8-3073-4302-aea1-0aa3924dd64e.PNG"></br>
   Fig.1: cell Symbol(a)
 </p>
 
@@ -236,7 +236,7 @@ In the Primewave select the 'model file' i.e the '28nm PDK's .lib file present i
  save it. Then add the outputs which needs to be plotted by selecting the nets from the design.
  
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155800180-c6f8e2e6-10e9-41b1-b4c4-0980034b6ff4.png"></br>
+  <img src="https://user-images.githubusercontent.com/88899069/155876835-67096a15-2c07-4709-aeb5-467bc68b6619.PNG"></br>
   Fig.13: Analysis
 </p>
 
@@ -244,7 +244,7 @@ Now, we need to save the testbench state for that Go to "Testbench" on the top l
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155801132-972f490a-b6c5-4279-a818-3c71af949878.png"></br>
+  <img src="https://user-images.githubusercontent.com/88899069/155876848-0b46cc62-8a64-436d-834c-c212550fd8b1.PNG"></br>
   Fig.14: Save Testbench State
 </p>
 
