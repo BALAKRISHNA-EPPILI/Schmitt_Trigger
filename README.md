@@ -19,6 +19,7 @@ This repository presents the design of Analysis of CMOS Schmitt Trigger implemen
 	- [Synopsys Primewave](#Synopsys-Primewave)
 	- [Transient Analysis](#Transient-Analysis)
 	- [Waveform](#Waveform)
+- [CONCLUSIONS](#CONCLUSIONS)
 - [Netlist of the Circuit](#Netlist-of-the-Circuit)
 - [Log_File of the Circuit](#Log_File-of-the-Circuit)
 - [References](#references)
@@ -260,6 +261,7 @@ In the Primewave select the 'model file' i.e the '28nm PDK's .lib file present i
   Fig.14: Model file(b)
 </p>
 </p
+
 
 ### Transient Analysis: 
 
