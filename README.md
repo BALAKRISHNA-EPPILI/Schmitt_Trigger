@@ -274,8 +274,8 @@ it , Go to "save state" then click on it . All the things have been written by d
 ### Waveform:
 Now, for simulating the circuit go to the simulation on the top bar click on it then there are several options come there one option is "Netlist and Run" and the other is "Run"
 only but since we need our netlist also so, click on "Netlist and Run" then it loads and on transient analysis, it is showing the status of simulation like 
-Simulation:Ready-----then , Running -----then Completed 
-Your waveform of the circuit automatically opens and your waveform is displayed finally in front of you. 
+Simulation:Ready-----> then , Running -----> then Completed 
+    Your waveform of the circuit automatically opens and your waveform is displayed finally in front of you. 
 Also,  at the same time netlist is also generated so, go back to the Test Suite window and go back to the simulation button and click on "Netlist" there, click on "Display" now
 the netlist of your circuit  has been displayed. 
 
