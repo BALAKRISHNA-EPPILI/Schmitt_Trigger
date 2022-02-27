@@ -324,7 +324,7 @@ Refer to the netlist of the circuit here: <a href='Netlist'>Netlist</a>
 
 # Log_File of the Circuit:
 
-Refer to the log_file of the circuit here: <a href='Log_file'>Log_File</a>
+Refer to the log_file of the circuit here: <a href='Log_File'>Log_File</a>
 
 
 # References:
