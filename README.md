@@ -176,11 +176,18 @@ This is the symbol of Schmitt Trigger as in this symbol there are 2 signals  whi
 input of schmitt trigger and the other square wave signal which indicates the output of schmitt Trigger . So, The whole symbol indicates that schmitt trigger converts the sine
 wave into the square wave . 
 
-This symbol consist of 4 pins . These pins are :
+This symbol consist of 4 pins . 
+
+These pins are :
+
 vin, VDDA,Vout and VSSA 
+
 vin=Pin for Input signal 
+
 VDDA=Power supply voltage 
+
 Vout=Pin for output signal 
+
 VSSA= Pin for Ground
 
 </p>
