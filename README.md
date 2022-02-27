@@ -262,7 +262,7 @@ In the Primewave select the 'model file' i.e the '28nm PDK's .lib file present i
 </p>
 </p
 
-### Transient Analysis:
+### Transient Analysis: 
   Once that model file has been included, then after this select the 'tran' analysis in the analysis window and give the 'Start Time', 'Time Step' and 'Stop Time' parameters
 respectively and save it. Then add the outputs on the right bottom corner in the expression column which need to be plotted by selecting the nets from the design of testbench of
 the circuit .
